@@ -31,13 +31,6 @@
     }
   },
   {
-    "context": "Terminal",
-    "bindings": {
-      "space o t": "workspace::NewTerminal",
-      "space t": "workspace::ToggleBottomDock"
-    }
-  },
-  {
     "context": "Workspace",
     "bindings": {
       "space o t": "workspace::NewTerminal",
