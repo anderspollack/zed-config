@@ -27,6 +27,9 @@
     "HTML": {
       "tab_size": 2
     },
+    "Markdown": {
+      "soft_wrap": "editor_width"
+    },
     "SCSS": {
       "tab_size": 2
     }
