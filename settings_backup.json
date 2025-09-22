@@ -7,20 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "agent": {
-    "default_profile": "ask",
-    "default_model": {
-      "provider": "lmstudio",
-      "model": "deepseek/deepseek-r1-0528-qwen3-8b"
-    }
-  },
   "buffer_font_family": "SF Mono",
   "buffer_font_features": {
     "calt": false
   },
   "buffer_font_size": 13,
   "features": {
-    "edit_prediction_provider": "none"
+    "inline_completion_provider": "none"
   },
   // "format_on_save": "off",
   "git": {
@@ -32,13 +25,6 @@
     "CSS": {
       "tab_size": 2
     },
-    "JavaScript": {
-      "formatter": {
-        "code_actions": {
-          "source.fixAll.eslint": true
-        }
-      }
-    },
     "HTML": {
       "tab_size": 2
     },
@@ -46,21 +32,6 @@
       "soft_wrap": "editor_width"
     },
     "SCSS": {
-      "tab_size": 2
-    },
-    "TypeScript": {
-      "formatter": {
-        "code_actions": {
-          "source.fixAll.eslint": true
-        }
-      }
-    },
-    "Vue.js": {
-      "formatter": {
-        "code_actions": {
-          "source.fixAll.eslint": true
-        }
-      },
       "tab_size": 2
     }
   },
@@ -80,7 +51,7 @@
   },
   "theme": {
     "mode": "system",
-    "light": "Solarized Light",
+    "light": "Gruvbox Light Hard",
     "dark": "Gruvbox Dark Hard"
   },
   "ui_font_family": ".SystemUIFont",
